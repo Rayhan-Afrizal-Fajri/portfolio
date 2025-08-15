@@ -57,19 +57,19 @@ export const listTools = [
     }, {
         id: 6,
         gambar: Tools6,
-        nama: "Javascript",
+        nama: "JavaScript",
         ket: "Language",
         dad: "600"
     }, {
         id: 7,
         gambar: Tools7,
         nama: "Node JS",
-        ket: "Javascript Runtime",
+        ket: "JavaScript Runtime",
         dad: "700"
     }, {
         id: 8,
         gambar: Tools8,
-        nama: "Github",
+        nama: "GitHub",
         ket: "Repository",
         dad: "800"
     }, {
@@ -95,19 +95,19 @@ export const listTools = [
         gambar: Tools12,
         nama: "Adobe Photoshop",
         ket: "Design App",
-        dad: "1100"
+        dad: "1200"
     }, {
         id: 13,
         gambar: Tools13,
         nama: "Alpine.js",
-        ket: "Javascript Framework",
-        dad: "1100"
+        ket: "JavaScript Framework",
+        dad: "1300"
     }, {
         id: 14,
         gambar: Tools14,
         nama: "Livewire",
         ket: "Laravel Frontend Framework",
-        dad: "1100"
+        dad: "1400"
     }
 ];
 
@@ -159,7 +159,7 @@ export const listProyek = [
                 img: BannerJkbOlympic,
                 nama: "Banner JKB Olympic 2024",
                 desk: "Banner ini dibuat untuk kegiatan tahunan JKB Olympic 2024, sebuah ajang olahra" +
-                        "gaga antar mahasiswa Jurusan Komputer dan Bisnis yang bertujuan mempererat sil" +
+                        "ga antar mahasiswa Jurusan Komputer dan Bisnis yang bertujuan mempererat sil" +
                         "aturahmi sekaligus menumbuhkan semangat sportivitas."
             }, {
                 img: BannerPemilihanHimatris,
@@ -194,7 +194,7 @@ export const listProyek = [
         desk: "Banner ini dibuat untuk berbagai kegiatan di Jurusan Komputer dan Bisnis Polit" +
                 "eknik Negeri Cilacap, seperti JKB Olympic, pemilihan ketua himpunan, dan lainn" +
                 "ya.",
-        tools: ["AI"],
+        tools: ["Adobe Illustrator"],
         dad: "200"
     }, {
         id: 2,
@@ -247,7 +247,7 @@ export const listProyek = [
         desk: "Logo ini dibuat untuk berbagai acara, organisasi, dan program resmi di Politek" +
                 "nik Negeri Cilacap, seperti turnamen futsal, identitas jurusan, kegiatan kampu" +
                 "s, hingga program studi.",
-        tools: ["AI"],
+        tools: ["Adobe Illustrator"],
         dad: "300"
     }, {
         id: 3,
@@ -304,7 +304,7 @@ export const listProyek = [
 
         ],
         tools: [
-            "AI", "PS"
+            "Adobe Illustrator", "Adobe Photoshop"
         ],
         dad: "400"
     }, {
@@ -322,7 +322,7 @@ export const listProyek = [
             "Laravel",
             "Alpine.js",
             "TailwindCSS",
-            "Javascript",
+            "JavaScript",
             "Vite",
             "Node.js"
         ],
@@ -343,16 +343,7 @@ export const listProyek = [
             "Node.js"
         ],
         dad: "600"
-    },
-    // {     id: 6,     gambar: Proyek6,     tipe: "Website",     link:
-    // "https://company-profile-2.vercel.app/",     nama: "Earsip Lazisnu", desk:
-    // "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    // tools: [         "NextJS", "TailwindCSS", "Framermotion" ],     dad: "700" },
-    // {     id: 7,     gambar: Proyek6,     tipe: "Website", link:
-    // "https://company-profile-2.vercel.app/",     nama: "Sibaznas", desk: "Lorem
-    // ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!", tools: [
-    // "NextJS", "TailwindCSS", "Framermotion" ],     dad: "700" },
-    {
+    }, {
         id: 8,
         gambar: Proyek6,
         tipe: "Website",
