@@ -154,7 +154,15 @@ function App() {
             <div key={proyek.id} className="bg-zinc-800 p-4 rounded-md" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={proyek.dad} data-aos-once="true">
               <img src={proyek.gambar} alt="Proyek Image" loading="lazy"/>
               <div>
-                <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
+                <div className="flex items-center justify-between">
+                  <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
+                  {/* <span className="bg-violet-700 text-white px-3 py-1 rounded-md">{proyek.tipe}</span> */}
+                  {proyek.tipe === "Desain" && proyek.galeri && (
+                    <span className="text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm bg-green-900 text-green-300">
+                      {proyek.galeri.length} {proyek.tipe}
+                    </span>
+                  )}
+                </div>
                 <p className="text-base/loose mb-4">{proyek.desk}</p>
                 <div>
                   {proyek.tools.map((tool, index) => (
@@ -201,9 +209,9 @@ function App() {
                     fill="currentColor"
                     className="size-7">
                     <path
-                        fill-rule="evenodd"
+                        fillRule="evenodd"
                         d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z"
-                        clip-rule="evenodd"/>
+                        clipRule="evenodd"/>
                   </svg>  
                 </button>
 
