@@ -333,7 +333,11 @@ export const listProyek = [
         tipe: "Website",
         link: "https://github.com/Protic-PNC/jkb-sistem-dosen-wali/",
         nama: "Siwali JKB",
-        desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+        desk: "Sistem Informasi Dosen Wali Jurusan Komputer dan Bisnis Politeknik Negeri Cilacap (PNC) " +
+                "dirancang untuk mempermudah dosen wali dalam mengelola laporan dosen wali serta " +
+                " data akademik dan non-akademik mahasiswa. Sistem ini juga memungkinkan pihak jurusan " +
+                "memantau laporan dosen wali secara terpusat. Pembangunan sistem ini " +
+                "merupakan bagian dari Tugas Akhir sebagai syarat kelulusan.",
         tools: [
             "TailwindCSS",
             "Alpine.js",
@@ -349,7 +353,11 @@ export const listProyek = [
         tipe: "Website",
         link: "https://kampoengkepiting.com/",
         nama: "kampoengkepiting.com",
-        desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+        desk: "Sistem Informasi Kampoeng Kepiting dirancang untuk mempromosikan sekaligus memudahkan " +
+                "pengunjung dalam memperoleh informasi terkait wisata kuliner kepiting di kampung laut, " +
+                "Cilacap. Sistem ini menyajikan informasi lengkap mengenai menu, harga, " +
+                "dan fasilitas yang tersedia. Pembangunan sistem ini merupakan program Pengabdian Kepada Masyarakat " +
+                "yang dilaksanakan oleh dosen PNC.",
         tools: [
             "TailwindCSS",
             "Alpine.js",

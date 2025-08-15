@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import dataImage from "./data";
 import { listTools, listProyek } from "./data";
 
@@ -6,6 +6,21 @@ function App() {
     const [filter, setFilter] = useState("Desain"); // default: Desain
     const [showModal, setShowModal] = useState(false);
     const [selectedProyek, setSelectedProyek] = useState(null);
+    const [showDropdown, setShowDropdown] = useState(false);
+    const dropdownRef = useRef(null);
+    
+    // Tutup dropdown jika klik di luar elemen
+    useEffect(() => {
+      function handleClickOutside(event) {
+        if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+          setShowDropdown(false);
+        }
+      }
+      document.addEventListener("mousedown", handleClickOutside);
+      return () => {
+        document.removeEventListener("mousedown", handleClickOutside);
+      };
+    }, []);
 
     const filteredProjects = listProyek.filter(
       (proyek) => proyek.tipe === filter
@@ -27,9 +42,30 @@ function App() {
             dengan tujuan membangun fondasi yang kuat untuk berkarya secara kreatif dan bermanfaat di masa depan.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
-              Download CV <i className="ri-download-line ri-lg"></i>
-            </a>
+            <div className="relative" ref={dropdownRef}>
+              <button onClick={() => setShowDropdown(!showDropdown) } className="cursor-pointer bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
+                Download CV <i className="ri-download-line ri-lg"></i>
+              </button>
+              {/* dropdown download cv */}
+              {showDropdown && (
+                <div className="absolute mt-2 w-48 bg-zinc-800 rounded-lg shadow-lg border border-zinc-700">
+                    <a
+                      href="/cv-frontend.pdf"
+                      download
+                      className="block px-4 py-2 hover:bg-zinc-700 rounded-t-lg"
+                    >
+                      Front End & UI/UX
+                    </a>
+                    <a
+                      href="/cv-desain.pdf"
+                      download
+                      className="block px-4 py-2 hover:bg-zinc-700 rounded-b-lg"
+                    >
+                      Desain
+                    </a>
+                </div>
+              )}
+            </div>
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
               Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
             </a>
@@ -54,13 +90,13 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-4xl mb-1">
-                  45<span className="text-violet-500">+</span>
+                  10<span className="text-violet-500">+</span>
                 </h1>
                 <span>Proyek Selesai</span>
               </div>
               <div>
                 <h1 className="text-4xl mb-1">
-                  4<span className="text-violet-500">+</span>
+                  2<span className="text-violet-500">+</span>
                 </h1>
                 <span>Tahun Pengalaman</span>
               </div>

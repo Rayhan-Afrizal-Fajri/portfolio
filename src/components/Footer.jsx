@@ -17,6 +17,9 @@ const Footer = () => {
             <a href="https://www.threads.com/@ray.han.23" target="_blank" rel="noopener noreferrer">
                 <i className="ri-threads-fill ri-2x"></i>
             </a>
+            <a href="https://www.linkedin.com/in/rayhan-afrizal-fajri" target="_blank" rel="noopener noreferrer">
+                <i className="ri-linkedin-fill ri-2x"></i>
+            </a>
             {/* <a href="#">
                 <i className="ri-youtube-fill ri-2x"></i>
             </a> */}
