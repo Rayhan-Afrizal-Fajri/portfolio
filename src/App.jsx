@@ -20,13 +20,11 @@ function App() {
             <q>Kode yang indah, lahir dari ketekunan.😊</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">Hai, saya <span className="text-yellow-500">Rayhan</span></h1>
-          <p className="text-base/loose mb-6 opacity-50">Saya seorang Front End Web
-              Developer sekaligus UI/UX dan Graphic Designer. Saya memiliki ketertarikan besar
-              di bidang programming dan desain, terutama dalam pengembangan website dan
-              pembuatan karya visual seperti poster, banner, dan logo. Dengan keterampilan
-              pada PHP, Laravel, JavaScript, ReactJS, Tailwind CSS, Figma, Adobe Illustrator,
-              dan GitHub, saya berkomitmen untuk terus belajar dan mengembangkan diri demi
-              menciptakan karya yang inovatif dan bermanfaat.
+          <p className="text-base/loose mb-6 opacity-50">Saya adalah seorang mahasiswa yang memiliki ketertarikan besar pada dunia Front End Web Development, UI/UX, dan desain grafis. 
+            Saya aktif mempelajari berbagai teknologi dan konsep, terutama dalam 
+            pengembangan website serta pembuatan karya visual seperti poster, banner, dan logo. 
+            Saat ini, saya terus mengasah kemampuan di PHP, Laravel, JavaScript, ReactJS, Tailwind CSS, Figma, Adobe Illustrator, dan GitHub, 
+            dengan tujuan membangun fondasi yang kuat untuk berkarya secara kreatif dan bermanfaat di masa depan.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a href="#" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
@@ -45,13 +43,11 @@ function App() {
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img src={dataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden block" loading="lazy" />
           <p className="text-base/loose mb-10">
-              Saya adalah seseorang yang menekuni bidang programming dan desain dengan fokus
-              pada pengembangan website serta pembuatan desain kreatif seperti poster, banner,
-              dan logo. Didukung kemampuan di berbagai teknologi seperti PHP, Laravel,
-              JavaScript, ReactJS, Tailwind CSS, Figma, Adobe Illustrator, dan GitHub, saya
-              selalu berupaya memperdalam pengetahuan dan keterampilan. Bagi saya, setiap
-              proyek adalah kesempatan untuk berinovasi, belajar hal baru, dan menghasilkan
-              karya berkualitas.
+              Saya sedang menapaki perjalanan belajar di bidang programming dan desain, 
+              dengan fokus pada pengembangan website serta pembuatan desain kreatif seperti poster, banner, dan logo. 
+              Saya memiliki minat yang besar untuk menguasai teknologi seperti PHP, Laravel, JavaScript, ReactJS,
+              Tailwind CSS, Figma, Adobe Illustrator, Canva, Adobe Photoshop, dan GitHub. Bagi saya, setiap proyek percobaan atau latihan adalah
+              kesempatan untuk bereksperimen, mengasah keterampilan, dan mempersiapkan diri menuju dunia kerja yang sesungguhnya.
           </p>
           <div className="flex items-center justify-between">
             <img src={dataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:block hidden" loading="lazy" />
