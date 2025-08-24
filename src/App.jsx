@@ -50,15 +50,15 @@ function App() {
               {showDropdown && (
                 <div className="absolute mt-2 w-48 bg-zinc-800 rounded-lg shadow-lg border border-zinc-700">
                     <a
-                      href="/cv-frontend.pdf"
-                      download
+                      href="../assets/CV/cv_it.pdf"
+                      target="blank"
                       className="block px-4 py-2 hover:bg-zinc-700 rounded-t-lg"
                     >
                       Front End & UI/UX
                     </a>
                     <a
-                      href="/cv-desain.pdf"
-                      download
+                      href="../assets/CV/cv_design.pdf"
+                      target="blank"
                       className="block px-4 py-2 hover:bg-zinc-700 rounded-b-lg"
                     >
                       Desain
