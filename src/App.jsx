@@ -28,51 +28,67 @@ function App() {
 
   return (
     <>
-      <div className="hero grid md:grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1">
-        <div className="animate__animated animate__fadeInUp animate__delay-2s">
+      <div className="hero grid md:grid-cols-2 pt-10 items-center xl:gap-0 gap-6 grid-cols-1 relative">
+        <div className="animate__animated animate__fadeInUp animate__delay-2s relative z-20">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src={dataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy"/>
             <q>Kode yang indah, lahir dari ketekunan.😊</q>
           </div>
-          <h1 className="text-5xl/tight font-bold mb-6">Hai, saya <span className="text-yellow-500">Rayhan</span></h1>
-          <p className="text-base/loose mb-6 opacity-50">Saya adalah seorang mahasiswa yang memiliki ketertarikan besar pada dunia Front End Web Development, UI/UX, dan desain grafis. 
-            Saya aktif mempelajari berbagai teknologi dan konsep, terutama dalam 
-            pengembangan website serta pembuatan karya visual seperti poster, banner, dan logo. 
+          <h1 className="text-5xl/tight font-bold mb-6">
+            Hai, saya <span className="text-yellow-500">Rayhan</span>
+          </h1>
+          <p className="text-base/loose mb-6 opacity-50">
+            Saya adalah seorang mahasiswa yang memiliki ketertarikan besar pada dunia Front End Web Development, UI/UX, dan desain grafis. 
+            Saya aktif mempelajari berbagai teknologi dan konsep, terutama dalam pengembangan website serta pembuatan karya visual seperti poster, banner, dan logo. 
             Saat ini, saya terus mengasah kemampuan di PHP, Laravel, JavaScript, ReactJS, Tailwind CSS, Figma, Adobe Illustrator, dan GitHub, 
             dengan tujuan membangun fondasi yang kuat untuk berkarya secara kreatif dan bermanfaat di masa depan.
           </p>
+
           <div className="flex items-center sm:gap-4 gap-2">
             <div className="relative" ref={dropdownRef}>
-              <button onClick={() => setShowDropdown(!showDropdown) } className="cursor-pointer bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">
+              <button 
+                onClick={() => setShowDropdown(!showDropdown)} 
+                className="cursor-pointer bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
+              >
                 Download CV <i className="ri-download-line ri-lg"></i>
               </button>
+
               {/* dropdown download cv */}
               {showDropdown && (
-                <div className="absolute mt-2 w-48 bg-zinc-800 rounded-lg shadow-lg border border-zinc-700">
-                    <a
-                      href="../assets/CV/cv_it.pdf"
-                      target="_blank"
-                      className="block px-4 py-2 hover:bg-zinc-700 rounded-t-lg"
-                    >
-                      Front End & UI/UX
-                    </a>
-                    <a
-                      href="../assets/CV/cv_design.pdf"
-                      target="_blank"
-                      className="block px-4 py-2 hover:bg-zinc-700 rounded-b-lg"
-                    >
-                      Desain
-                    </a>
+                <div className="absolute mt-2 w-48 bg-zinc-800 rounded-lg shadow-lg border border-zinc-700 z-50">
+                  <a
+                    href="../assets/CV/cv_it.pdf"
+                    target="_blank"
+                    className="block px-4 py-2 hover:bg-zinc-700 rounded-t-lg"
+                  >
+                    Front End & UI/UX
+                  </a>
+                  <a
+                    href="../assets/CV/cv_design.pdf"
+                    target="_blank"
+                    className="block px-4 py-2 hover:bg-zinc-700 rounded-b-lg"
+                  >
+                    Desain
+                  </a>
                 </div>
               )}
             </div>
+
             <a href="#proyek" className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600">
               Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
             </a>
           </div>
         </div>
-        <img src={dataImage.HeroImage} alt="Hero Image" className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s rounded-lg" loading="lazy"/>
+
+        {/* Gambar dibikin di belakang */}
+        <img 
+          src={dataImage.HeroImage} 
+          alt="Hero Image" 
+          className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-3s rounded-lg relative z-10" 
+          loading="lazy"
+        />
       </div>
+
 
       {/* tentang */}
       <div className="tentang mt-32 py-10" id="tentang">
