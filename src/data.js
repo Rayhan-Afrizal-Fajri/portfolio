@@ -1,5 +1,5 @@
-import HeroImage from "/assets/hero-img.png";
-import NavbarImage from "/assets/logo-white.png";
+import HeroImage from "/assets/hero-img.webp";
+import NavbarImage from "/assets/logo-white.webp";
 
 const Image = {
     HeroImage,
@@ -111,41 +111,41 @@ export const listTools = [
     }
 ];
 
-import Proyek1 from "/assets/proyek/banner.png";
+import Proyek1 from "/assets/proyek/banner.webp";
 // asset banner
-import BannerJkbOlympic from "/assets/proyek/banner/jkb_olympic.png";
-import BannerPemilihanHimatris from "/assets/proyek/banner/pemilihan_himatris.png";
-import BannerPKMO from "/assets/proyek/banner/pkmo_himatris.png";
-import BannerReorHimatris from "/assets/proyek/banner/reor_himatris.png";
-import BannerSeJkb from "/assets/proyek/banner/se_jkb.png";
-import BannerSertijabHimatris from "/assets/proyek/banner/sertijab_himatris.png";
+import BannerJkbOlympic from "/assets/proyek/banner/jkb-olympic.webp";
+import BannerPemilihanHimatris from "/assets/proyek/banner/pemilihan-himatris.webp";
+import BannerPKMO from "/assets/proyek/banner/pkmo-himatris.webp";
+import BannerReorHimatris from "/assets/proyek/banner/reor-himatris.webp";
+import BannerSeJkb from "/assets/proyek/banner/se-jkb.webp";
+import BannerSertijabHimatris from "/assets/proyek/banner/sertijab-himatris.webp";
 // asset banner
 
-import Proyek2 from "/assets/proyek/logo.png";
+import Proyek2 from "/assets/proyek/logo.webp";
 // asset logo
-import LogoFutsalCup from "/assets/proyek/logo/logo_futsal_cup_pnc.png";
-import LogoJKB from "/assets/proyek/logo/logo_jkb.png";
-import LogoKonpicabIpmPekuncen from "/assets/proyek/logo/logo_konpicab_ipm_pekuncen.png";
-import LogoMusycabIpmPekuncen from "/assets/proyek/logo/logo_musycab_ipm_pekuncen.png";
-import LogoSmanaMasukKampus from "/assets/proyek/logo/logo_smana_masuk_kampus_6.0.png";
-import LogoTefa from "/assets/proyek/logo/logo_tefa.png";
-import LogoTrpl from "/assets/proyek/logo/logo_trpl.png";
+import LogoFutsalCup from "/assets/proyek/logo/logo_futsal_cup_pnc.webp";
+import LogoJKB from "/assets/proyek/logo/logo_jkb.webp";
+import LogoKonpicabIpmPekuncen from "/assets/proyek/logo/logo_konpicab_ipm_pekuncen.webp";
+import LogoMusycabIpmPekuncen from "/assets/proyek/logo/logo_musycab_ipm_pekuncen.webp";
+import LogoSmanaMasukKampus from "/assets/proyek/logo/logo_smana_masuk_kampus_6.0.webp";
+import LogoTefa from "/assets/proyek/logo/logo_tefa.webp";
+import LogoTrpl from "/assets/proyek/logo/logo_trpl.webp";
 // asset logo
 
-import Proyek3 from "/assets/proyek/poster.png";
+import Proyek3 from "/assets/proyek/poster.webp";
 // asset poster
-import PosterBadmintonJkbOlympic from "/assets/proyek/poster/badminton_jkb_olympic.png";
-import PosterIitc from "/assets/proyek/poster/iitc_judi.png";
-import PosterMlbbJkbOlympic from "/assets/proyek/poster/mlbb_jkb_olympic.png";
-import PosterReorHimatris from "/assets/proyek/poster/reor_himatris.png";
-import PosterRsifcHariNasional from "/assets/proyek/poster/rsifc_hari_nasional.png";
-import PosterRsifcJadwalDokter from "/assets/proyek/poster/rsifc_jadwal_dokter.png";
-import PosterRsifcPengumuman from "/assets/proyek/poster/rsifc_pengumuman.png";
+import PosterBadmintonJkbOlympic from "/assets/proyek/poster/badminton_jkb_olympic.webp";
+import PosterIitc from "/assets/proyek/poster/iitc_judi.webp";
+import PosterMlbbJkbOlympic from "/assets/proyek/poster/mlbb_jkb_olympic.webp";
+import PosterReorHimatris from "/assets/proyek/poster/reor_himatris.webp";
+import PosterRsifcHariNasional from "/assets/proyek/poster/rsifc_hari_nasional.webp";
+import PosterRsifcJadwalDokter from "/assets/proyek/poster/rsifc_jadwal_dokter.webp";
+import PosterRsifcPengumuman from "/assets/proyek/poster/rsifc_pengumuman.webp";
 // asset poster
 
-import Proyek4 from "/assets/proyek/e-alumni.png";
-import Proyek5 from "/assets/proyek/siwali-jkb.png";
-import Proyek6 from "/assets/proyek/kampoengkepiting.com.png";
+import Proyek4 from "/assets/proyek/e-alumni.webp";
+import Proyek5 from "/assets/proyek/siwali-jkb.webp";
+import Proyek6 from "/assets/proyek/kampoengkepiting.com.webp";
 import NavBar from "./components/NavBar";
 
 export const listProyek = [
